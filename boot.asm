@@ -12,7 +12,7 @@ jmp $
 %include "io.asm"
 
 HELLO_MSG:
-	db 'Hello, Oshi', 0
+	db 'Hello, Oshy', 0
 
 ; Fill with 510 zeros minus the size of the previous code
 times 510-($-$$) db 0
